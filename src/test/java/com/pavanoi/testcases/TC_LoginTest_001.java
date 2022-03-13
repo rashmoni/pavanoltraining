@@ -13,7 +13,7 @@ public class TC_LoginTest_001 extends BaseClass{
 	@Test
 	public void loginTest() {
 		driver.get(baseURL);
-		logger.info("URL opened");
+		logger.info("URL opened Prasanth");
 		
 		/*LoginPage login = new LoginPage(driver);
 		login.setUserName(username);
@@ -22,8 +22,8 @@ public class TC_LoginTest_001 extends BaseClass{
 		login.setPassword(password);
 		logger.info("Enter Password");
 		login.clickSubmit();*/
-		logger.info("Page Opened");
-		logger.info("Getting Title");
+		logger.info("Page Opened Prasanth");
+		logger.info("Getting Title Prasanth");
 		logger.info(driver.getTitle());
 		
 		if(driver.getTitle().contains("rashmoni")) {

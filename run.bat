@@ -1,2 +1,2 @@
-cd D:\pavanoltraining
+cd C:\Users\Pras\Desktop\pavanoltraining
 mvn clean install
