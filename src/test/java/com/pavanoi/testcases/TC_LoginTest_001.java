@@ -12,7 +12,7 @@ public class TC_LoginTest_001 extends BaseClass{
 	
 	@Test
 	public void loginTest() {
-		driver.get(baseURL);
+		driver.get(baseUR);
 		logger.info("URL opened Prasanth");
 		
 		/*LoginPage login = new LoginPage(driver);
