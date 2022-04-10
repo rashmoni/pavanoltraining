@@ -40,10 +40,10 @@ public void setUp(String br) throws InterruptedException {
 	PropertyConfigurator.configure("Log4j.properties");
 	
 	if(br.equals("chrome")) {
-	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Drivers//chromedriver");
 	driver = new ChromeDriver();
 	}else if (br.equals("ff")) {
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Drivers//chromedriver");
 		driver = new ChromeDriver();
 		
 	}
